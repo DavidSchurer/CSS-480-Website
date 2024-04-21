@@ -61,17 +61,18 @@ function ThingsToReadPage() {
 
     return (
         <div className="ThingsToReadContainer">
-            <h1 className="ThingsToReadTitle">Things To Read</h1>
-
-            <ul className="ThingsToReadList">
-                <div className="ThingsToReadListContainer"> 
-                {links.map((link, index) => (
-                    <li className="ThingsToReadList" key={index}>
-                        <a href={link.url} className={index === selectedIndex ? 'selected' : ''} onClick={() => handleLinkClick(index)}>{link.label}</a>
-                    </li>
-                ))}
-                </div>
-            </ul>
+            <div className="TitleContainer">
+                <h1 className="ThingsToReadTitle">Things To Read</h1>
+            </div>
+            <div className="ListContainer"> 
+                <ul className="ThingsToReadList">
+                    {links.map((link, index) => (
+                        <li className="ThingsToReadList" key={index}>
+                            <a href={link.url} className={index === selectedIndex ? 'selected' : ''} onClick={() => handleLinkClick(index)}>{link.label}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }

@@ -3,15 +3,12 @@
     padding: 10px;
 }
 
-.ThingsToReadTitle {
-    color: black;
-    border-style:double;
-    display: inline-block;
-    border-width: 5px;
-    padding: 10px;
+.TitleContainer, .ListContainer {
+    display: block;
+    margin: auto;
 }
 
-.ThingsToReadListContainer {
+.ThingsToReadTitle {
     color: black;
     border-style:double;
     display: inline-block;
@@ -23,6 +20,9 @@
     max-width: 150px;
     padding: 0;
     list-style: none;
+    border-style:double;
+    display: inline-block;
+    border-width: 5px;
 }
 
 .ThingsToReadList li {
