@@ -9,7 +9,7 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/PoC-Keyboard-Access" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/things-to-read" element={<ThingsToReadPage />} />
       </Routes>
     </Router>
