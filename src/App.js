@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <NavigationBar />
-      <Route index element={<Home />} />
       <Routes>
+        <Route index element={<Home />} />
         <Route path="/things-to-read" element={<ThingsToReadPage />} />
       </Routes>
     </Router>
