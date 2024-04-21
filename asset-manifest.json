@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PoC-Keyboard-Access/static/css/main.1c4d0811.css",
+    "main.js": "/PoC-Keyboard-Access/static/js/main.3ab4b9a4.js",
+    "static/js/453.34c694ab.chunk.js": "/PoC-Keyboard-Access/static/js/453.34c694ab.chunk.js",
+    "static/media/canada.png": "/PoC-Keyboard-Access/static/media/canada.7721c6cc5a2445406610.png",
+    "index.html": "/PoC-Keyboard-Access/index.html",
+    "main.1c4d0811.css.map": "/PoC-Keyboard-Access/static/css/main.1c4d0811.css.map",
+    "main.3ab4b9a4.js.map": "/PoC-Keyboard-Access/static/js/main.3ab4b9a4.js.map",
+    "453.34c694ab.chunk.js.map": "/PoC-Keyboard-Access/static/js/453.34c694ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c4d0811.css",
+    "static/js/main.3ab4b9a4.js"
+  ]
+}
