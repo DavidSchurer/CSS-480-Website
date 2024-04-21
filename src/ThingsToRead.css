@@ -1,0 +1,43 @@
+.ThingsToReadContainer {
+    text-align: left;
+    padding: 10px;
+}
+
+.ThingsToReadTitle {
+    color: black;
+    border-style:double;
+    display: inline-block;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.ThingsToReadListContainer {
+    color: black;
+    border-style:double;
+    display: inline-block;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.ThingsToReadList {
+    max-width: 150px;
+    padding: 0;
+    list-style: none;
+}
+
+.ThingsToReadList li {
+    display: block;
+    background-color: #ffffff;
+    padding: 10px 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: background-color 0.5s;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin: 10px; 
+}
+
+.ThingsToReadList li:hover {
+    background-color: #6f736f;
+    color: #ffffff; 
+}

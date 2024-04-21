@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {focusOnThingsToReadLink } from './NavigationBar';
+import './ThingsToRead.css';
 
 function ThingsToReadPage() {
     const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -7,13 +8,13 @@ function ThingsToReadPage() {
         { label: 'Google', url: 'https://www.google.com/' },
         { label: 'Youtube', url: 'https://www.youtube.com/' },
         { label: 'Discord', url: 'https://discord.com/' },
-        { label: 'UW Bothell Canvas', url: 'https://canvas.uw.edu/' },
-        { label: 'Link 1', url: '#' },
-        { label: 'Link 2', url: '#' },
-        { label: 'Link 3', url: '#' },
-        { label: 'Link 4', url: '#' },
-        { label: 'Link 5', url: '#' },
-        { label: 'Link 6', url: '#' }
+        { label: 'Amazon', url: 'https://www.amazon.com/' },
+        { label: 'Netflix', url: 'https://www.netflix.com/browse' },
+        { label: 'HBO Max', url: 'https://play.max.com/' },
+        { label: 'Steam', url: 'https://store.steampowered.com/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/' },
+        { label: 'AMC Theaters', url: 'https://www.amctheatres.com/' },
+        { label: 'Emerald City Athletics', url: 'https://emeraldcityathletics.com/' }
     ];
 
     useEffect(() => {
@@ -59,15 +60,17 @@ function ThingsToReadPage() {
     };
 
     return (
-        <div>
-            <h1>Things To Read</h1>
+        <div className="ThingsToReadContainer">
+            <h1 className="ThingsToReadTitle">Things To Read</h1>
 
-            <ul>
+            <ul className="ThingsToReadList">
+                <div className="ThingsToReadListContainer"> 
                 {links.map((link, index) => (
-                    <li key={index}>
+                    <li className="ThingsToReadList" key={index}>
                         <a href={link.url} className={index === selectedIndex ? 'selected' : ''} onClick={() => handleLinkClick(index)}>{link.label}</a>
                     </li>
                 ))}
+                </div>
             </ul>
         </div>
     );
