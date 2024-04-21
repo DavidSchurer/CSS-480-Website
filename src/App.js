@@ -6,13 +6,13 @@ import NavigationBar from './NavigationBar';
 
 function App() {
   return (
-    <Router basename = "/PoC-Keyboard-Access">
+    <>
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/things-to-read" element={<ThingsToReadPage />} />
       </Routes>
-    </Router>
+   </>
   );
 }
 
