@@ -4,28 +4,32 @@
 }
 
 .WelcomeMessage {
-  color: black;
+  color: #E3E3E3;
   border-style:double;
+  border-color: #1C1C1C;
   display: inline-block;
   border-width: 5px;
 }
 
 .ShortNarrative {
-  color: black;
+  color: #E3E3E3;
   border-style:double;
+  border-color: #1C1C1C;
   display: inline-block;
   border-width:5px;
 }
 
 .Picture {
-  color: black;
+  color: #E3E3E3;
   border-style:double;
+  border-color:#1C1C1C;
   display: inline-block;
   border-width: 15px;
 }
 
 .List {
-  color: black;
+  color: #E3E3E3;
+  border-color: #1C1C1C;
   border-style:double;
   display: inline-block;
   border-width:5px;
@@ -50,11 +54,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E3E3E3;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1C1C1C;
 }
 
 @keyframes App-logo-spin {

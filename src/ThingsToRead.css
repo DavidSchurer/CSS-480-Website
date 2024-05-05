@@ -9,7 +9,8 @@
 }
 
 .ThingsToReadTitle {
-    color: black;
+    color: #FFFFFF;
+    border-color: #1C1C1C;
     border-style:double;
     display: inline-block;
     border-width: 5px;
@@ -21,23 +22,24 @@
     padding: 0;
     list-style: none;
     border-style:double;
+    border-color: #1C1C1C;
     display: inline-block;
     border-width: 5px;
 }
 
 .ThingsToReadList li {
     display: block;
-    background-color: #ffffff;
+    background-color: #E3E3E3;
     padding: 10px 16px;
-    color: rgb(0, 0, 0);
+    color: #E3E3E3(0, 0, 0);
     text-decoration: none;
     transition: background-color 0.5s;
-    border: 1px solid #ccc; 
+    border: 1px solid #E3E3E3; 
     border-radius: 4px; 
     margin: 10px; 
 }
 
 .ThingsToReadList li:hover {
-    background-color: #6f736f;
-    color: #ffffff; 
+    background-color: #E3E3E3;
+    color: #E3E3E3; 
 }
