@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PoC-Keyboard-Access/static/css/main.1c4d0811.css",
-    "main.js": "/PoC-Keyboard-Access/static/js/main.c6eab1c0.js",
-    "static/js/453.34c694ab.chunk.js": "/PoC-Keyboard-Access/static/js/453.34c694ab.chunk.js",
-    "static/media/canada.png": "/PoC-Keyboard-Access/static/media/canada.7721c6cc5a2445406610.png",
-    "index.html": "/PoC-Keyboard-Access/index.html",
-    "main.1c4d0811.css.map": "/PoC-Keyboard-Access/static/css/main.1c4d0811.css.map",
-    "main.c6eab1c0.js.map": "/PoC-Keyboard-Access/static/js/main.c6eab1c0.js.map",
-    "453.34c694ab.chunk.js.map": "/PoC-Keyboard-Access/static/js/453.34c694ab.chunk.js.map"
+    "main.css": "/PoC-Color-and-Styling/static/css/main.14ca7bba.css",
+    "main.js": "/PoC-Color-and-Styling/static/js/main.ab6d0666.js",
+    "static/js/453.34c694ab.chunk.js": "/PoC-Color-and-Styling/static/js/453.34c694ab.chunk.js",
+    "static/media/canada.png": "/PoC-Color-and-Styling/static/media/canada.7721c6cc5a2445406610.png",
+    "index.html": "/PoC-Color-and-Styling/index.html",
+    "main.14ca7bba.css.map": "/PoC-Color-and-Styling/static/css/main.14ca7bba.css.map",
+    "main.ab6d0666.js.map": "/PoC-Color-and-Styling/static/js/main.ab6d0666.js.map",
+    "453.34c694ab.chunk.js.map": "/PoC-Color-and-Styling/static/js/453.34c694ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c4d0811.css",
-    "static/js/main.c6eab1c0.js"
+    "static/css/main.14ca7bba.css",
+    "static/js/main.ab6d0666.js"
   ]
 }
