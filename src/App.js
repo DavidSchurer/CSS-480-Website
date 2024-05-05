@@ -6,7 +6,7 @@ import NavigationBar from './NavigationBar';
 
 function App() {
   return (
-    <Router basename = "/PoC-Keyboard-Access">
+    <Router basename = "/PoC-Color-and-Styling">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
