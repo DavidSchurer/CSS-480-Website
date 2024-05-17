@@ -1,7 +1,7 @@
 {
   "name": "css-480-website",
   "version": "0.1.0",
-  "homepage": "https://davidschurer.github.io/PoC-Color-and-Styling/",
+  "homepage": "https://davidschurer.github.io/CSS-480-Website/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

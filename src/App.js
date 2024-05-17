@@ -7,7 +7,7 @@ import InterestsPage from './InterestsPage';
 
 function App() {
   return (
-    <Router basename = "/PoC-Color-and-Styling">
+    <Router basename = "/CSS-480-Website">
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
