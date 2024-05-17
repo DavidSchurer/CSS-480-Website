@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CSS-480-Website/static/css/main.f4b29a19.css",
+    "main.css": "/CSS-480-Website/static/css/main.03e95feb.css",
     "main.js": "/CSS-480-Website/static/js/main.d91d1ae7.js",
     "static/js/453.34c694ab.chunk.js": "/CSS-480-Website/static/js/453.34c694ab.chunk.js",
     "static/media/breakingBadPic.jpg": "/CSS-480-Website/static/media/breakingBadPic.5298b9487031cc141cb1.jpg",
@@ -8,12 +8,12 @@
     "static/media/gameOfThrones.jpg": "/CSS-480-Website/static/media/gameOfThrones.3e5c7c46d982354776f9.jpg",
     "static/media/theWalkingDeadPic.jpg": "/CSS-480-Website/static/media/theWalkingDeadPic.d83076f48d2541423549.jpg",
     "index.html": "/CSS-480-Website/index.html",
-    "main.f4b29a19.css.map": "/CSS-480-Website/static/css/main.f4b29a19.css.map",
+    "main.03e95feb.css.map": "/CSS-480-Website/static/css/main.03e95feb.css.map",
     "main.d91d1ae7.js.map": "/CSS-480-Website/static/js/main.d91d1ae7.js.map",
     "453.34c694ab.chunk.js.map": "/CSS-480-Website/static/js/453.34c694ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b29a19.css",
+    "static/css/main.03e95feb.css",
     "static/js/main.d91d1ae7.js"
   ]
 }
