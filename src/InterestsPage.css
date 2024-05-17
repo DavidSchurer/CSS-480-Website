@@ -1,0 +1,85 @@
+@keyframes flash {
+    0% {
+        background-color: lightslategray;
+    }
+    50% {
+        background-color: lightgray;
+    }
+    100% {
+        background-color: lightslategray;
+    }
+}
+
+.favorite-tv-shows {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #aaa, 4px 4px #888, 6px 6px 6px #666;
+}
+
+.tv-show {
+    margin-bottom: 30px;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: lightslategray;
+    animation: flash 5s infinite;
+}
+
+.subheader {
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #aaa, 4px 4px 4px #888, 6px 6px 6px #666;
+}
+
+.show-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.show-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    border: 2pxsolid whitesmoke !important;
+}
+
+.show-image:hover {
+    transform: scale(1.05);
+    filter: brightness(75%);
+    border: solid whitesmoke;
+}
+
+.show-description {
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5;
+    max-width: 600px;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    color: whitesmoke;
+}

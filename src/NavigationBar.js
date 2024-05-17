@@ -6,6 +6,7 @@ import './NavigationBar.css';
 function NavigationBar() {
     const homeLinkRef = useRef(null);
     const thingsToReadLinkRef = useRef(null);
+    const interestsPageLinkRef = useRef(null);
 
     useEffect(() => {
         homeLinkRef.current.focus();
@@ -34,12 +35,16 @@ function NavigationBar() {
         thingsToReadLinkRef.current.focus();
     };
 
+    const focusOnInterestsLink = () => {
+        interestsPageLinkRef.current.focus();
+    }
+
     return (
         <nav onKeyDown={handleKeyDown}>
             <table>
                 <th><Link to="/" ref={homeLinkRef}>Home</Link></th>
-
                 <th><Link to="/things-to-read" ref={thingsToReadLinkRef}>Things To Read</Link></th>
+                <th><Link to="/interests-page" ref={interestsPageLinkRef}>My Favorite TV Shows</Link></th>
             </table>
         </nav>
     );
