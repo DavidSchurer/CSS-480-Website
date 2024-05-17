@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/PoC-Color-and-Styling/static/css/main.14ca7bba.css",
-    "main.js": "/PoC-Color-and-Styling/static/js/main.194894bf.js",
-    "static/js/453.34c694ab.chunk.js": "/PoC-Color-and-Styling/static/js/453.34c694ab.chunk.js",
-    "static/media/canada.png": "/PoC-Color-and-Styling/static/media/canada.7721c6cc5a2445406610.png",
-    "index.html": "/PoC-Color-and-Styling/index.html",
-    "main.14ca7bba.css.map": "/PoC-Color-and-Styling/static/css/main.14ca7bba.css.map",
-    "main.194894bf.js.map": "/PoC-Color-and-Styling/static/js/main.194894bf.js.map",
-    "453.34c694ab.chunk.js.map": "/PoC-Color-and-Styling/static/js/453.34c694ab.chunk.js.map"
+    "main.css": "/CSS-480-Website/static/css/main.f4b29a19.css",
+    "main.js": "/CSS-480-Website/static/js/main.d91d1ae7.js",
+    "static/js/453.34c694ab.chunk.js": "/CSS-480-Website/static/js/453.34c694ab.chunk.js",
+    "static/media/breakingBadPic.jpg": "/CSS-480-Website/static/media/breakingBadPic.5298b9487031cc141cb1.jpg",
+    "static/media/canada.png": "/CSS-480-Website/static/media/canada.7721c6cc5a2445406610.png",
+    "static/media/gameOfThrones.jpg": "/CSS-480-Website/static/media/gameOfThrones.3e5c7c46d982354776f9.jpg",
+    "static/media/theWalkingDeadPic.jpg": "/CSS-480-Website/static/media/theWalkingDeadPic.d83076f48d2541423549.jpg",
+    "index.html": "/CSS-480-Website/index.html",
+    "main.f4b29a19.css.map": "/CSS-480-Website/static/css/main.f4b29a19.css.map",
+    "main.d91d1ae7.js.map": "/CSS-480-Website/static/js/main.d91d1ae7.js.map",
+    "453.34c694ab.chunk.js.map": "/CSS-480-Website/static/js/453.34c694ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14ca7bba.css",
-    "static/js/main.194894bf.js"
+    "static/css/main.f4b29a19.css",
+    "static/js/main.d91d1ae7.js"
   ]
 }
