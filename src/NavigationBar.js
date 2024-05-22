@@ -42,7 +42,7 @@ function NavigationBar() {
     return (
         <nav onKeyDown={handleKeyDown}>
             <table>
-                <th><Link to="/" ref={homeLinkRef}>Home</Link></th>
+                <th><Link to="/home" ref={homeLinkRef}>Home</Link></th>
                 <th><Link to="/things-to-read" ref={thingsToReadLinkRef}>Things To Read</Link></th>
                 <th><Link to="/interests-page" ref={interestsPageLinkRef}>My Favorite TV Shows</Link></th>
             </table>

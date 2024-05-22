@@ -11,6 +11,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Navigate to="/interests-page" />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/things-to-read" element={<ThingsToReadPage />} />
         <Route path="/interests-page" element={<InterestsPage />} />
       </Routes>
